@@ -1,0 +1,11 @@
+name: ShipmentBox
+version: 2.0.0
+author: Gober
+main: com.gmail.JyckoSianjaya.ShipmentBox.ShipmentBox
+description: A ShipmentBox plugin!
+depend: [HolographicDisplays]
+soft-depend: [HolographicDisplays, Vault, Essentials]
+commands:
+    shipmentbox:
+         usage: /<command>
+         aliases: [sb, shipment, shipbox, shpmntbox, shipmentb]

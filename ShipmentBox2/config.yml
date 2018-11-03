@@ -1,0 +1,170 @@
+ship-cooldown: 20
+TIMEZONE_ID: "Asia/Jakarta"
+
+Options:
+  drop_items_on_break: true
+  drop_boxitem_on_break: true
+  minimum_ship_items: 128
+  minimum_ship_hour: 7
+  maximum_ship_hour: 24
+  maximum_trustees: 4
+  shipping_cost:
+     tax_in_percentage: true
+     tax_cost: 7.5
+
+Item:
+  shipmentbox:
+     Lores:
+     - "&7Place me to"
+     - "&7open a private bussiness."
+     Name: "&b&lShipmentBox &m-&7 Owned by %OWNER%"
+     Material: CHEST
+       
+In_GUI:
+  GUI_Size: 36
+  Neutral_Item:
+     1:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 0
+        Lores:
+        - "&a "
+     2:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 1
+        Lores:
+        - "&a "
+     3:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 2
+        Lores:
+        - "&a "
+     4:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 3
+        Lores:
+        - "&a "
+     5:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 4
+        Lores:
+        - "&a "
+     6:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 5
+        Lores:
+        - "&a "
+     7:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 6
+        Lores:
+        - "&a "
+     8:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 7
+        Lores:
+        - "&a "
+     9:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 8
+        Lores:
+        - "&a "
+     10:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 27
+        Lores:
+        - "&a "
+     11:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 28
+        Lores:
+        - "&a "
+     12:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 29
+        Lores:
+        - "&a "
+     13:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 30
+        Lores:
+        - "&a "
+     14:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 31
+        Lores:
+        - "&a "
+     15:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 32
+        Lores:
+        - "&a "
+     16:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 33
+        Lores:
+        - "&a "
+     17:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 34
+        Lores:
+        - "&a "
+     18:
+        Name: "&c&m "
+        Material: STAINED_GLASS_PANE
+        Block_Value: 15
+        Slot: 35
+        Lores:
+        - "&a "
+  GUI_Name: "&1%OWNER%&2's &2Shipment Box"
+  keep:
+     Lores:
+     - "&aClick me to keep items!"
+     Name: "&2&l[ &a&lKeep &2&l]"
+     Material: EMERALD_BLOCK
+     Slot: 19
+  ship:
+     Lores:
+     - "&aClick me to ship"
+     - "&ayour items and get money!"
+     Name: "&6&l[ &e&lShip &6&l]"
+     Material: BOAT
+     Slot: 20
+
+#This timezone above will collect time from Asia / Jakarta
+#You can change this like America/Phoenix, etc.
+# or Asia/Bangkok
+# https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/

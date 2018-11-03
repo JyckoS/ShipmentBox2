@@ -1,0 +1,16 @@
+Prices:
+  COBBLESTONE: 10
+  WOOL: 25
+  WHEAT: 20
+  POTATO: 10
+  CARROT: 10
+  IRON_INGOT: 100
+  GOLD_INGOT: 150
+  DIAMOND: 300
+  EMERALD: 400
+# E.G:
+# APPLE: 2000
+# You can add your own!
+# Check out the materials at:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#

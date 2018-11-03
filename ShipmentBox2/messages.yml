@@ -1,0 +1,114 @@
+help_messages:
+- "&6&l// &e&m                       &r &6&l\\\\"
+- "&e&l      ShipmentBox "
+- "&7> &e/shipmentbox &btime"
+- "&7> &e/shipmentbox &6teleport &f(Player)"
+- "&7> &e/shipmentbox &dstatus &f(Player)"
+- "&7> &e/shipmentbox &9access &a<add/list/remove> <player>"
+- "&6&l\\\\ &e&m                     &r &6&l//"
+
+time_messages:
+- " "
+- "&1&l    <&b&lClock&1&l>"
+- "&bTime: %HOURS%:%MINUTES%;%SECONDS%"
+
+
+no_permission: "&c&lOops! &7You do not have the permission!"
+player_offline: "&c&lOops! &7That player doesn't exist!"
+cancel_explosion: "&f&l[&e&l!&f&l] &aMay the holy Shipment Box protect you from destruction"
+have_no_box: "&c&lOops! &7You do not have a box!"
+target_no_box: "&c&lOops! &f%PLAYER% &7does not have a box!"
+box_access_list:
+- "&6&m                                   "
+- "&e&l       %OWNER%&7's box accesses"
+- "%ACCESS%"
+- "&6&m                                   "
+box_access_help: "&7Please use: &f/shipmentbox access &l<&eList&f,&aAdd&f,&cRemove&f&l>"
+box_access_add: "&7Please use: &f/shipmentbox access add &f<Player>"
+box_access_remove: "&7Please use: &f/shipmentbox access remove &f<Player>"
+person_doesnt_exist: "&c&lOops! &7That person has never been existed before."
+person_access_less: "&c&lOops! &7Looks like that person doesn't need more access."
+box_accessed: "&7Access has been given to the person &f&n%PERSON%&7, &f&n%PERSON%&7 can now access your Shipment Box."
+box_unaccessed: "&7Access has been &cremoved. &f&n%PERSON%&7 will &c&lnever&7 be able to access your Shipment Box."
+
+box_status:
+- "&6&l%PLAYER%&6's &eShipment Box"
+- " "
+- "&cLocation:"
+- "   &a&lX: &a%LOCATION_X%"
+- "   &b&lY: &b%LOCATION_Y%"
+- "   &e&lZ: &e%LOCATION_Z%"
+- "&7Cooldown: &f%COOLDOWN%"
+
+not_enough_items:
+- " "
+- "&c&lOops!"
+- "&eYou need more items to sell! &7(Min: &o128&7)"
+- " "
+
+cant_ship_yet:
+- " "
+- "&c&lOops!"
+- "&eYou may not ship yet!"
+- "&7You can only ship between &f7 &aA.M &7and &f12 &9P.M"
+- " "
+
+nothing_sellable:
+- " "
+- "&c&lOops!"
+- "&eNone of those things are shippable!"
+- " "
+
+no_items:
+- "&7Hey!"
+- "&6&lMr.&6Buyer: &fWho do you think wanted to buy air?!!"
+- ""
+
+items_gone:
+- "&f&l[ &6&l! &7f&l]"
+- "&c&l &cBox broken, all items inside is gone."
+
+item_shipped:
+- "                  &2&l [ &a&l! &2&l]"
+- "&6Item(s) inside your shipmentbox has been sold."
+- " "
+- "&e&lYou got: &2&l$&a%TOTAL%"
+- " "
+
+item_shipped_others:
+- "                  &e&l [ &6&l! &e&l]"
+- "&6Item(s) inside &f%OWNER%&6's shipmentbox has been sold."
+- " "
+- "&f%OWNER%&e&l got: &2&l$&a%TOTAL%"
+- " "
+
+ship_received_others:
+- "                  &2&l [ &a&l! &2&l]"
+- "&6Item(s) inside your shipmentbox has been shipped by &e%SHIPPER%"
+- " "
+- "&e&lYou got: &2&l$&a%TOTAL%"
+- " "
+
+hologram_messages:
+- "&6&m                    "
+- "&f%OWNER%&7's Shipment Box"
+- "&6&m                    "
+
+ActionBar:
+   box_nearby: "&fCan't place with a Shipment Box nearby!"
+   no_items: "&4** &cIt's empty! &4**"
+   no_box: "&c** &fYou don't own a Box **"
+   already_have_box: "&4** &cYou already have a box! &4**"
+   box_placed: "&2** &aShipment Box placed &2**"
+   box_destroyed: "&4** &cShipment Box destroyed &4**"
+   not_its_box: "&c&lHey! &7It's not your box!"
+   box_item_kept: "&6&l** &e&lItem&e&o(s) has been kept &6&l**"
+   on_cooldown: "&4It's on cooldown. Please wait &f%COOLDOWN% &cseconds."
+   item_shipped: "&2&l$ &a&lItem(s) has been shipped. &fYou got &2$&a%TOTAL%&f."
+   others_ship: "&2&l$&a&l%TOTAL% &6has been shipped to %OWNER%."
+   ship_receive_other: "&2&l$&a&l%TOTAL% &6has been received from your box."
+
+Titles:
+  Teleport:
+    title: "&7You're teleported to"
+    subtitle: "&ayour box!"
